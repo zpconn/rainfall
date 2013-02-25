@@ -1,0 +1,24 @@
+name: Rainfall
+version: 0.0.1
+cabal-version: >=1.2
+build-type: Simple
+license: AllRightsReserved
+license-file: ""
+description:  
+data-dir: ""
+ 
+executable Rainfall
+    build-depends: QuickCheck -any, array -any, base -any,
+                   containers -any
+    main-is: Main.hs
+    buildable: True
+    hs-source-dirs: src
+ 
+test-suite test-Rainfall
+    build-depends: QuickCheck -any, array -any, base -any,
+                   containers -any
+    type: exitcode-stdio-1.0
+    main-is: Main.hs
+    buildable: True
+    cpp-options: -DMAIN_FUNCTION=testMain
+    hs-source-dirs: src
