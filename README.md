@@ -8,5 +8,5 @@ The challenge: You are given a matrix of heights, and you assume that water flow
 water currently in one cell always flows to the neighboring cell of least height. Assume that the provided matrix
 is such that there are no ambiguities in this process. Morever, assume each cell has only four neighbors (E,W,N,S).
 
-A sink is a cell with the property that water never flows away from it. A basin is a maximal subset of the grid consisting 
-entirely of sinks. Determine the sizes of the basins.
+A sink is a cell with the property that water never flows away from it. The cells which drain water ultimately into a given
+sink are said to form a basin. Observe that the map is thereby partitioned into basins. Determine the sizes of all basins.
