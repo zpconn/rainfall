@@ -9,4 +9,4 @@ water currently in one cell always flows to the neighboring cell of least height
 is such that there are no ambiguities in this process. Morever, assume each cell has only four neighbors (E,W,N,S).
 
 A sink is a cell with the property that water never flows away from it. A basin is a maximal subset of the grid consisting 
-entirely of sinks. Observe that the grid is thereby partitioned into basins. Determine the sizes of the basins.
+entirely of sinks. Determine the sizes of the basins.
